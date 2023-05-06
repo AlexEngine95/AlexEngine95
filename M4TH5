@@ -1,0 +1,7 @@
+import time
+def slowprint(s):
+    for x in s:
+        print(x,end='')
+        time.sleep(0.025)
+    print('')
+slowprint("Welcome to M4TH5.py, created by AlexEngine95. M4TH5.py aims to simplify repetitive mathematical calculations.")
